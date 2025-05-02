@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": 1, "username": "john", "password": "1234" }
+  ],
+  "projects": [
+    { "id": 1, "title": "Project One", "description": "Description of Project One" }
+  ],
+  "tasks": [
+    { "id": 1, "projectId": 1, "title": "Task One", "completed": false }
+  ],
+  "comments": [
+    { "id": 1, "taskId": 1, "text": "Great work!" }
+  ]
+}
