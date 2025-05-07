@@ -9,7 +9,6 @@ const rootReducer = combineReducers({
   users: usersReducer,
   projects: projectReducer,
   tasks: taskReducer,
-  // comments: commentReducer,
 });
 
 export default rootReducer;
