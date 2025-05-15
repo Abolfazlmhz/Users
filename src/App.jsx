@@ -1,5 +1,3 @@
-// src/App.jsx
-import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,7 +8,7 @@ import LoginForm from "./features/auth/LoginForm";
 import ProjectList from "./features/projects/ProjectList";
 import TaskBoard from "./features/tasks/TaskBoard";
 import CommentBox from "./features/comments/CommentBox";
-import ProtectedRoute from "./features/auth/ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./components/Layout";
 
 const App = () => {
